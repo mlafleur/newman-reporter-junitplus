@@ -1,0 +1,38 @@
+{
+  "name": "newman-reporter-junitplus",
+  "version": "1.0.0",
+  "description": "Enhanced Junit Reporter for Newman",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "newman",
+    "reporter",
+    "junit"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mlafleur/newman-reporter-junitplus.git"
+  },
+  "author": "Marc LaFleur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mlafleur/newman-reporter-junitplus/issues"
+  },
+  "homepage": "https://github.com/mlafleur/newman-reporter-junitplus#readme",
+  "dependencies": {
+    "xmlbuilder": "13.0.2",
+    "lodash": "4.17.11"
+  },
+  "devDependencies": {
+    "newman": "4.5.0"
+  },
+  "peerDependencies": {
+    "newman": "4"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "preferGlobal": true,
+}
