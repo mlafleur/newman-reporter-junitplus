@@ -1,6 +1,6 @@
 {
   "name": "newman-reporter-junitplus",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Enhanced Junit Reporter for Newman",
   "main": "index.js",
   "scripts": {
