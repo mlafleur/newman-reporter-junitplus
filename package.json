@@ -1,38 +1,69 @@
 {
-  "name": "newman-reporter-junitplus",
-  "version": "1.0.1",
-  "description": "Enhanced Junit Reporter for Newman",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": {
+    "name": "Marc LaFleur",
+    "email": "marc@massivescale.com",
+    "url": "https://massivescale.com"
   },
+  "bugs": {
+    "url": "https://github.com/mlafleur/newman-reporter-junitplus/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "filesize": "4.1.2",
+    "handlebars": "4.1.2",
+    "lodash": "4.17.11",
+    "pretty-ms": "4.0.0"
+  },
+  "deprecated": false,
+  "description": "Newman JUnit Plus Reporter",
+  "devDependencies": {
+    "async": "2.6.1",
+    "chai": "4.1.2",
+    "colors": "1.3.3",
+    "editorconfig": "0.15.3",
+    "eslint": "5.16.0",
+    "eslint-plugin-jsdoc": "4.6.0",
+    "eslint-plugin-lodash": "5.1.0",
+    "eslint-plugin-mocha": "5.3.0",
+    "eslint-plugin-security": "1.4.0",
+    "jsdoc": "3.5.5",
+    "jsdoc-to-markdown": "4.0.1",
+    "mocha": "6.0.2",
+    "newman": "4.4.1",
+    "nyc": "13.3.0",
+    "packity": "0.3.2",
+    "parse-gitignore": "1.0.1",
+    "postman-jsdoc-theme": "0.0.3",
+    "recursive-readdir": "2.2.2",
+    "shelljs": "0.8.3"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "greenkeeper": {
+    "ignore": [
+      "cli-progress",
+      "cli-table3",
+      "csv-parse"
+    ]
+  },
+  "homepage": "https://github.com/mlafleur/newman-reporter-junitplus",
   "keywords": [
     "newman",
     "reporter",
     "junit"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/mlafleur/newman-reporter-junitplus.git"
-  },
-  "author": "Marc LaFleur",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mlafleur/newman-reporter-junitplus/issues"
-  },
-  "homepage": "https://github.com/mlafleur/newman-reporter-junitplus#readme",
-  "dependencies": {
-    "xmlbuilder": "13.0.2",
-    "lodash": "4.17.11"
-  },
-  "devDependencies": {
-    "newman": "4.5.0"
-  },
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "name": "newman-reporter-junitplus",
   "peerDependencies": {
     "newman": "4"
   },
-  "engines": {
-    "node": ">=6"
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mlafleur/newman-reporter-junitplus.git"
   },
-  "preferGlobal": true
+  "scripts": {},
+  "version": "1.0.2"
 }
